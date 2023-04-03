@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(127, 241, 241, 0.3);
+}
+
+#myform {
+  display: none;
+}
+.container-1 {
+  margin: -45px 300px;
+  padding: 30px 60px;
+  border: 2px solid lightslategray;
+  border-radius: 9px;
+  box-shadow: 10px 4px 15px black;
+}
+input[type="email"],
+input[type="email"],
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 5px;
+}
+.btn {
+  width: 106%;
+  padding: 10px 0px;
+  font-size: 20px;
+  color: black;
+  border-radius: 8px;
+  background-color: aquamarine;
+}
+.btn:hover {
+  color: black;
+  cursor: pointer;
+  background-color: cyan;
+}
+
+nav ul {
+  display: flex;
+  border-bottom: 2px solid black;
+  box-shadow: 10px 4px 15px black;
+  /* justify-content: flex-end; */
+  list-style: none;
+  background-color: aquamarine;
+}
+nav li {
+  /* display: inline; */
+  /* text-decoration: none; */
+  /* text-align: center; */
+  margin: 1px 6px;
+  padding: 11px 10px;
+  font-size: 24px;
+}
+
+nav li a {
+  text-decoration: none;
+  /* display: flex; */
+  color: black;
+}
+nav li a:hover {
+  /* background-color: grey; */
+  cursor: pointer;
+  color: gray;
+}
+.btn-1 {
+  position: absolute;
+  padding: 10px 11px;
+  border-radius: 8px;
+  background: aquamarine;
+  color: black;
+  align-items: center;
+  right: 47%;
+  top: 38%;
+}
+.btn-1:hover {
+  background-color: cyan;
+  cursor: pointer;
+}
+.container-4 {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin: 60px 330px;
+  padding: 28px 60px;
+  font-size: 23px;
+  border-radius: 23px;
+}
+
+
+.about {
+  border: 2px solid black;
+  /* display: flex; */
+  justify-content: center;
+  background-color: whitesmoke;
+  margin: 60px 330px;
+  padding: 28px 60px;
+  font-size: 23px;
+  border-radius: 23px;
+  box-shadow: 10px 4px 15px black;
+}
+
+ .logo1{
+  width: 45px;
+  height: 45px;
+  margin: 0px 8px;
+}
+
+.logo2 {
+  width: 40%;
+  height: 40%;
+  margin: 0px 315px;
+  margin-top: -26%;
+}
+
